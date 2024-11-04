@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang='pt-BR'>
+
+<head>
+  <meta charset='UTF-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <title>Variáveis</title>
+  <style>
+    :root {
+      /* cores */
+      --cor-de-fundo: gray;
+      --cor-do-texto: yellow;
+      --destacar-cor: white;
+      /* bordas */
+      --borda-padrao: 8px solid blue;
+      /* destaques */
+      --destacar-peso: bold;
+      --destacar-estilo: none;
+      --destacar-decoracao: underline;
+    }
+
+    h1 {
+      background-color: var(--cor-de-fundo);
+      color: var(--cor-do-texto);
+      border: var(--borda-padrao);
+    }
+
+    p {
+      background-color: var(--cor-de-fundo);
+    }
+
+    span {
+      color: var(--destacar-cor);
+      font-weight: var(--destacar-peso);
+      font-style: var(--destacar-estilo);
+      text-decoration: var(--destacar-decoracao);
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Este é o body do meu site -->
+  <h1>Variáveis css</h1>
+  <p>Meu paragráfo</p>
+  <p>Este é um texto com um <span>trecho destacado em vermelho</span>.</p>
+
+</body>
+
+</html>

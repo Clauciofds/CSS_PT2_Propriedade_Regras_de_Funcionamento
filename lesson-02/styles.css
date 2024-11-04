@@ -1,0 +1,27 @@
+button:hover {
+  background-color: blue;
+}
+
+button:active {
+  background-color: red;
+}
+
+a {
+  color: black;
+}
+
+a:visited {
+  color: orange
+}
+
+input:focus {
+  background-color: blueviolet;
+}
+
+li:first-child {
+  background-color: plum;
+}
+
+li:last-child {
+  background-color: antiquewhite;
+}
